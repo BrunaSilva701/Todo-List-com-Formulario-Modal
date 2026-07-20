@@ -31,8 +31,10 @@ export default defineConfig({
 6.Utilliza ``npm run deploy`` para rodar o deploy
 
 ## Preview
-<img src="./src/assets/visualizacao1.png" alt="pré-visulização do site" width="550px" />
-
+<kbd>
+<img src="./src/assets/visualizacao1.png" alt="pré-visulização do site" width="540px" />
+</kbd>
+  
 <img src="./src/assets/visualizacao2.png" alt="pré-visulização do site" width="550px" />
 
 [![Link do site](https://img.shields.io/badge/Link%20do%20Site%20%20-04157B?style=for-the-badge)]( https://brunasilva701.github.io/Bootcamp-Dio-Clone-Youtube/)
