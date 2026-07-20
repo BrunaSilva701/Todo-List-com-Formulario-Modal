@@ -31,6 +31,8 @@ export default defineConfig({
 
 6.Utilliza ``npm run deploy`` para rodar o deploy
 
+7. Em pages no GitHub direcionar a página para a branch ``gh-pages``
+
 ## Preview
 <kbd>
 <img src="./src/assets/visualizacao1.png" alt="pré-visulização do site" width="540px" />
