@@ -20,12 +20,13 @@ Esse projeto também foi utilzado para aprendizado de como deployar projetos Rea
 
 3.No arquivo **package.json** adiciona a linha ``"homepage": "https://nome-de-usuario.github.io/nome-do-repositorio",`` logo abaixo de **name**.
 
-4.Em vit.config adiciona
+4.Em **vit.config** adiciona
 ``
 export default defineConfig({
   base: "/nome-do-repositorio",
 })
 ``
+
 5.Sobe configurações para o github
 
 6.Utilliza ``npm run deploy`` para rodar o deploy
