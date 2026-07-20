@@ -4,7 +4,7 @@
 Projeto front-end em React para a criação de lista de tarefas com possibilidade de criar e excluir informações e de uma janela modal para envio de informações. O projeto foi criado para estudo de desenvolvimento em React e aprndizado da ccriação de janelas modais
 
 ## Preview
-<img src="./src/assets/visualizacao1.png" alt="pré-visulização do site" width="550px"  border-color="#000"/>
+<img src="./src/assets/visualizacao1.png" alt="pré-visulização do site" width="550px"  style="border: 1px solid #000;"/>
 
 <img src="./src/assets/visualizacao2.png" alt="pré-visulização do site" width="550px" />
 
