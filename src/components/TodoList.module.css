@@ -1,10 +1,10 @@
 /* container principal */
 
 .container {
-  max-width: 400px;
+  width: 600px;
   margin: 40px auto;
-  padding: 20px;
-  background: #FFF;
+  padding: 80px;
+  background: #CFD6FA;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -13,38 +13,41 @@
 /* titulo da lista */
 .title {
   font-size: 24px;
-  color: #333;
-  margin-bottom: 15px;
+  color: #04157B;
+  font-weight: 600;
+  padding: 10px;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 30px;
 }
 
 /* input e botão dentro do formulário */
-
 .inputContainer {
   display: flex;
   gap: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .input {
   flex: 1;
   padding: 10px;
   font-size: 16px;
-  border: 1px solid #EEE;
+  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   outline: none;
   transition: border-color 0.3s;
-  background: #FFF;
-  color: #333;
+  color: #030303;
+  background-color:#c0caf8;
 }
 
+/*container de adição de tasks*/
 .input:focus {
   border-color: #0056b3;
 }
 
 /* botão */
-
 .button {
-  background: #007bff;
+  background: #04157B;
   color: #FFF;
   padding: 10px 16px;
   border: none;
@@ -55,19 +58,20 @@
 }
 
 .button:hover {
-  background: #0056b3;
+  background: #1a30ad;
 }
 
 /* lista de tarefas */
-
 .taskList {
   list-style: none;
   padding: 0;
 }
 
+/*Atividades adicionadas*/
 .taskItem {
-  background: #f8f9fa;
+  background:#BDC7F9;
   padding: 10px;
   margin-bottom: 5px;
   border-radius: 5px;
+  color: #333;
 }

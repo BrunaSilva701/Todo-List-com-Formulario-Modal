@@ -1,31 +1,30 @@
 .form {
   width: 100%;
-  max-width: 400px;
+  width: 400px;
   margin: 50px auto;
-  padding: 20px;
+  padding: 20px 30px;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-.input,
-.textarea {
+.input, .textarea {
+  box-sizing: border-box; /*Garante que padding e border fiquem dentro de 100%*/
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 16px;
   transition: border-color 0.3s ease;
-  background: #FFF;
+  background: #DCE1FA;
   font-family: Arial, Helvetica, sans-serif;
   color: #333;
   resize: none;
 }
 
-.input:focus,
-.textarea:focus {
-  border-color: #007bff;
+.input:focus, .textarea:focus {
+  border-color: #04157B;
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
   outline: none;
 }
@@ -35,10 +34,9 @@
 }
 
 .button {
-  background: #007bff;
+  background: #04157B;
   color: #FFF;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 14px;
   padding: 12px;
   border: none;
   border-radius: 6px;
@@ -47,6 +45,10 @@
   width: 50%;
 }
 
+.button p{
+  font-size: 16px;
+}
+
 .button:hover {
-  background: #0056b3;
+  background: #1a30ad;
 }

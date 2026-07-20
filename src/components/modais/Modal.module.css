@@ -6,8 +6,8 @@
 
 .openButton {
   padding: 10px 20px;
-  font-size: 16px;
-  background-color: #2f4eff;
+  font-size: 14px;
+  background-color: #1a30ad;
   color: #FFF;
   border: none;
   border-radius: 5px;
@@ -15,8 +15,17 @@
   transition: background 0.3s ease-in-out;
 }
 
-.openButton:hover {
-  background-color: #033491;
+.open{
+  background-color: #04157B;
+  color: aliceblue;
+  border-radius: 5px;
+  padding: 8px;
+  width: 200px;
+  font-size: 16px;
+}
+
+.open:hover{
+  background-color: #1a30ad;
 }
 
 .modal {
@@ -47,10 +56,15 @@
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  max-width: 400px;
+  max-width: 600px;
   text-align: center;
   color: #333;
   animation: scaleUp 0.3s forwards;
+}
+
+.modalContent h2{
+  padding-top: 30px;
+  font-weight: bold;
 }
 
 @keyframes scaleUp {
@@ -63,9 +77,9 @@
 }
 
 .closeButton {
-  padding: 8px 16px;
-  font-size: 14px;
-  background-color: #ff4d4d;
+  padding: 9px 18px;
+  font-size: 16px;
+  background-color: #b50915;
   color: #FFF;
   border: none;
   border-radius: 5px;
@@ -75,5 +89,5 @@
 }
 
 .closeButton:hover {
-  background-color: #e60000;
+  background-color: #d60e1c;
 }

@@ -72,7 +72,7 @@
 
 #next-steps {
   display: flex;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid var(--border); 
   text-align: left;
 
   & > div {
@@ -96,7 +96,8 @@
 }
 
 #docs {
-  border-right: 1px solid var(--border);
+  /*Remove linhas horizontais*/
+  /* border-right: 1px solid var(--border); */
 
   @media (max-width: 1024px) {
     border-right: none;
@@ -155,7 +156,7 @@
 
 #spacer {
   height: 88px;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid var(--border); 
   @media (max-width: 1024px) {
     height: 48px;
   }
@@ -175,10 +176,10 @@
 
   &::before {
     left: 0;
-    border-left-color: var(--border);
+    /* border-left-color: var(--border); */
   }
   &::after {
     right: 0;
-    border-right-color: var(--border);
+    /* border-right-color: var(--border); */
   }
 }

@@ -58,7 +58,7 @@ const ContactForm = () => {
             />
 
             <button type='submit' className={styles.button}>
-                Enviar
+                <p>Enviar</p>
             </button>
         </form>
     );

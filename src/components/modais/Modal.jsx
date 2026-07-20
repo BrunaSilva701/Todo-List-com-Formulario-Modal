@@ -7,12 +7,12 @@ const Modal = () => {
 
   return (
     <div>
-      <button onClick={() => setIsOpen(true)}>Abrir Modal</button>
+      <button className={styles.open} onClick={() => setIsOpen(true)}>Abrir Modal</button>
 
       {isOpen && (
         <div className={styles.modal}>
           <div className={styles.modalContent}>
-            <h3>Modal Title</h3>
+            <h2>Formulário de Contato</h2>
             {/* Formulario de Contato */}
             <ContactForm />
             <button
