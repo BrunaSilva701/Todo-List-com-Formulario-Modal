@@ -1,7 +1,34 @@
 # ToDo List com janela modal
 
 ## Sobre
-Projeto front-end em React para a criação de lista de tarefas com possibilidade de criar e excluir informações e de uma janela modal para envio de informações. O projeto foi criado para estudo de desenvolvimento em React e aprndizado da ccriação de janelas modais
+Projeto front-end em React para a criação de lista de tarefas e janela modal para envio de informações. O projeto foi criado para estudo de desenvolvimento em React e aprendizado da criação de janelas modais, portanto não tem salvamento de informações em um banco de dados mas há verificação de erros no momento de preenchimento do formulário.
+
+Esse projeto também foi utilzado para aprendizado de como deployar projetos React no GitHub pages.
+
+## Deploy no Github Pages
+1.No terminal do seu projeto, instale a biblioteca como dependência de desenvolvimento: ``npm install gh-pages --save-dev``
+
+- Resultado no **package.json**: ``"gh-pages": "^6.3.0",``
+
+2.No **packege.json** adiciona
+``
+"scripts": {
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+``
+
+3.No arquivo **package.json** adiciona a linha ``"homepage": "https://nome-de-usuario.github.io/nome-do-repositorio",`` logo abaixo de **name**.
+
+4.Em vit.config adiciona
+``
+export default defineConfig({
+  base: "/nome-do-repositorio",
+})
+``
+5.Sobe configurações para o github
+
+6.Utilliza ``npm run deploy`` para rodar o deploy
 
 ## Preview
 <img src="./src/assets/visualizacao1.png" alt="pré-visulização do site" width="550px" />

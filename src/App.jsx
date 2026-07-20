@@ -1,5 +1,5 @@
 import './App.css'
-import TodoList from './components/TodoList'
+import TodoList from './components/todoList/TodoList'
 import Modal from './components/modais/Modal'
 
 function App() {
