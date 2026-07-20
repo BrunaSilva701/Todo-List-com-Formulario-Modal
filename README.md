@@ -5,7 +5,7 @@ Projeto front-end em React para a criação de lista de tarefas com possibilidad
 
 ## Preview
 <kbd>
-<img src="./src/assets/visualizacao1.png" alt="pré-visulização do site" width="550px" />
+<img src="./src/assets/visualizacao1.png" alt="pré-visulização do site" width="540px" />
 </kbd>
   
 <img src="./src/assets/visualizacao2.png" alt="pré-visulização do site" width="550px" />
