@@ -38,7 +38,7 @@ export default defineConfig({
   
 <img src="./src/assets/visualizacao2.png" alt="pré-visulização do site" width="550px" />
 
-[![Link do site](https://img.shields.io/badge/Link%20do%20Site%20%20-04157B?style=for-the-badge)]( https://brunasilva701.github.io/Bootcamp-Dio-Clone-Youtube/)
+[![Link do site](https://img.shields.io/badge/Link%20do%20Site%20%20-04157B?style=for-the-badge)](https://brunasilva701.github.io/Todo-List-com-Formulario-Modal/)
 
 ## Figma
 <img src="./src/assets/Group 3.png" alt="pré-visulização do site" width="440px" />
