@@ -49,7 +49,7 @@ export default defineConfig({
 
 [![Link do Figma](https://img.shields.io/badge/Link%20do%20Figma%20%20-04157B?style=for-the-badge)](https://www.figma.com/design/0XgQK0NT2NjJ30umywKWda/Todo-List---Formulario-Modal?node-id=0-1&p=f&t=4DikkQhsHif4QIQK-0)
 
-## Comentarios para estudo
+## Conceitos de estilização
 **1.Retirar essas linhas em ``root`` a pasta ``index.css`` permite que as linhas verticais que limitam a tela sejam removidas da tela.**
 ````
 #root {
