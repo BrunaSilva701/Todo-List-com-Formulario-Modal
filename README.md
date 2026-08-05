@@ -31,7 +31,7 @@ export default defineConfig({
 
 6.Utilliza ``npm run deploy`` para rodar o deploy
 
-7. Em pages no GitHub direcionar a página para a branch ``gh-pages``
+7.Em pages no GitHub direcionar a página para a branch ``gh-pages``
 
 ## Preview
 <kbd>
